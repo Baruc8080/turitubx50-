@@ -1,0 +1,67 @@
+body{
+    background: #fff6f6;
+}
+
+
+.text-neon{
+    font-size: 36px; /* Tamaño del texto */
+    color: #ffffff; /* Color azul neon */
+}
+
+.navbar-brand img{
+    width: 40%;
+}
+
+.navbar {
+    background-color: #3c4cf4; /* Color de fondo de la barra de navegación */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 21px;
+}
+
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-items {
+    margin-top: 50px;
+    margin: 20px 100px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item {
+    margin: 0 30px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.publicacion{
+    background: white;
+}
+
+.card-bg{
+    background: #3c4cf4;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-items {
+      margin: 0; /* Eliminar el espaciado entre elementos en pantallas pequeñas */
+    }
+  
+    .nav-item {
+      margin: 0 10px; /* Restaurar el espaciado entre elementos en pantallas pequeñas */
+    }
+  
+    .navbar {
+      flex-direction: column; /* Colocar los elementos en una columna en pantallas pequeñas */
+      text-align: center; /* Centrar el texto en pantallas pequeñas */
+    }
+  }
+  
